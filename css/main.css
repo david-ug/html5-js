@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+
+
+/*-------- nav bar --------*/
+
+.nav-bar{
+
+}
+
+.first-line{
+    height: 20px;
+    background: #13335D;
+    padding: 10px 20px;
+}
+
+.first-line i{
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.first-line span{
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.second-line{
+    height: 30px;
+    background: #44CCFF;
+    padding: 10px 20px;
+}
+
+.second-line img{
+    height: 30px;
+}
+
+.menu-list{
+    list-style: none;
+    line-height: 30px;
+    margin: 0;
+    float: right;
+}
+
+.menu-list-short{
+    list-style: none;
+    line-height: 20px;
+    margin: 0;
+    float: right;
+}
+
+.menu-list li{
+    display: inline;
+    margin: 0 20px 0 30px;
+    color: #ffffff;
+}
+
+.menu-list-short li{
+    display: inline;
+    margin: 0 20px 0 30px;
+    color: #ffffff;
+}
+
+/*-------- header  --------*/
+
+.header img{
+    width: 100%;
+}
+
+.welcome-text{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 30px;
+}
