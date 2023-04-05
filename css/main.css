@@ -138,9 +138,14 @@ body{
     padding: 40px 60px 80px 60px;
     text-align: justify;
 }
+
 .carousel h2{
     text-align: center;
     margin-bottom: 50px;
+}
+
+.item{
+    display: inline-block;
 }
 
 .stretch {
