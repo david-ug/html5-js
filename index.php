@@ -34,26 +34,7 @@
 </head>
 <body>
 
-    <div class="nav-bar" id="top-nav-bar">
-        <div class="first-line">
-            <i class="fa-solid fa-phone"></i><span>+48 000 000 000</span>
-            <i class="fa-solid fa-envelope"></i><span>dawid.jereczek@ug.edu.pl</span>
-            <ul class="menu-list-short">
-                <li>Sekcja 5</li>
-                <li>Logowanie</li>
-            </ul>
-        </div>
-
-        <div class="second-line">
-            <a href="#header"><img src="img/logo.webp" alt="logo firmy"/></a>
-            <ul class="menu-list">
-                <li><a href="#description">Sekcja 1</a></li>
-                <li><a href="#side-by-side-section">Sekcja 2</a></li>
-                <li>Sekcja 3</li>
-                <li>Sekcja 4</li>
-            </ul>
-        </div>
-    </div>
+  <?php include "navbar.html" ?>
 
     <div class="header" id="header">
         <div class="welcome-text">
@@ -120,7 +101,7 @@
     </div>
 
     <div class="footer">
-
+        <span>© 2023 Copyright David J</span>
     </div>
 
 </body>

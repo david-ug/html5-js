@@ -20,6 +20,10 @@ if(!empty($name) && !empty($email) && !empty($phone) && !empty($country) && !emp
         $stmt->bindParam("phone", $phone);
         $stmt->bindParam("country", $country);
         $stmt->execute();
+
+        $host  = $_SERVER['HTTP_HOST'];
+        header("Location: http://$host");
+
     } catch (Exception $e) {
         echo $e;
     }
