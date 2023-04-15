@@ -19,7 +19,7 @@
     <link rel="icon" sizes="any" type="any" href="https://www.domena.pl/img/logo.png">
     <link rel="shortcut icon" type="image/svg+xml" href="https://www.domena.pl/img/logo.svg">
 
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <script src="https://kit.fontawesome.com/36f5c70ddf.js" crossorigin="anonymous"></script>
 
@@ -83,14 +83,44 @@
         </div>
     </div>
 
-    <div class="carousel">
+    <div class="images">
         <h2>Heading 2</h2>
+
         <div class="item"><img src="img/img1.png" alt="image 1"/></div>
         <div class="item"><img src="img/img2.png" alt="image 2"/></div>
         <div class="item"><img src="img/img3.png" alt="image 3"/></div>
         <div class="item"><img src="img/img4.png" alt="image 4"/></div>
         <div class="item"><img src="img/img5.png" alt="image 5"/></div>
         <span class="stretch"></span>
+    </div>
+
+    <div class="my-form">
+        <h2>Heading 3</h2>
+
+        <form action="upload.php" method="post">
+            <input type="text" id="name" name="name" placeholder="Imię" >
+
+            <input type="email" id="email" name="email" placeholder="Mail" required>
+
+            <input type="text" id="phone" name="phone" placeholder="Telefon" required>
+
+            <select id="country" name="country" >
+                <option disabled selected value>Select Value</option>
+                <option value="country1">Country 1</option>
+                <option value="country2">Country 1</option>
+                <option value="country3">Country 1</option>
+                <option value="country4">Country 1</option>
+            </select>
+            <br>
+            <input type="checkbox" id="regulations" name="regulations" required>
+            <label for="regulations">I accept the privacy policy</label>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+    <div class="footer">
+
     </div>
 
 </body>
