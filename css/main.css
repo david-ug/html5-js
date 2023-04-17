@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -181,11 +185,36 @@ input[type=submit]{
     color: #ffffff;
 }
 
+input[type=submit]:hover{
+    background-color: #44CCFF;
+}
+
 /*-------- footer --------*/
 
 .footer{
     text-align: center;
-    background-color: #13335D;
+    background-color: #44CCFF;
     color: #ffffff;
     padding: 10px 0;
+}
+
+/*-------- cookie --------*/
+
+.cookie-banner{
+    position: fixed;
+    bottom: 0;
+    background: #ffffff;
+    width: 100%;
+    padding: 20px;
+}
+
+.accept-cookies-btn{
+   background-color: #13335D;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: 0;
+}
+.accept-cookies-btn:hover{
+    background-color: #44CCFF;
+
 }

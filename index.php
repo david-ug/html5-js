@@ -31,10 +31,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/cookies.js"></script>
 </head>
 <body>
 
-  <?php include "navbar.html" ?>
+    <?php include "navbar.html" ?>
 
     <div class="header" id="header">
         <div class="welcome-text">
@@ -75,7 +76,7 @@
         <span class="stretch"></span>
     </div>
 
-    <div class="my-form">
+    <div class="my-form" id="my-form">
         <h2>Heading 3</h2>
 
         <form action="upload.php" method="post">
@@ -102,6 +103,11 @@
 
     <div class="footer">
         <span>© 2023 Copyright David J</span>
+    </div>
+
+    <div class="cookie-banner">
+        <p>This website uses cookies to ensure the best quality of service. By using the site, you agree to our use of cookies in accordance with our <a href="/">privacy policy</a>.</p>
+        <button class="accept-cookies-btn" id="accept-cookies-btn">OK</button>
     </div>
 
 </body>

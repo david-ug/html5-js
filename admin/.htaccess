@@ -1,0 +1,5 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /Users/david/Documents/Workspace_UG/mywebsite/admin/.htpasswd
+AuthGroupFile /dev/null 
+require valid-user

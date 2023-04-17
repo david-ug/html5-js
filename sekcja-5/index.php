@@ -31,6 +31,7 @@
 
 </head>
 
+    <?php include "../navbar.html" ?>
 
 
 
