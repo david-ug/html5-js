@@ -1,7 +1,7 @@
 <div class="nav-bar" id="top-nav-bar">
   <div class="first-line">
     <i class="fa-solid fa-phone"></i><span>+48 000 000 000</span>
-    <i class="fa-solid fa-envelope"></i><span>dawid.jereczek@ug.edu.pl</span>
+    <i class="fa-solid fa-envelope"></i><span id="email-address">dawid.jereczek@ug.edu.pl</span>
     <ul class="menu-list-short">
       <li><a href="/sekcja-5">Sekcja 5</a></li>
       <li><a href="/admin">Logowanie</a></li>
@@ -16,5 +16,34 @@
       <li><a href="/#my-form">Sekcja 3</a></li>
       <li>Sekcja 4</li>
     </ul>
+    <a href="javascript:void(0)" onclick="showHideMenu()">
+        <i class="fa-solid fa-bars fa-xl"></i>
+    </a>
   </div>
 </div>
+
+<div class="mobile-menu" id="mobile-menu">
+  <ul class="mobile-menu-list">
+    <li><a href="/">Strona Główna</a></li>
+    <li><a href="/sekcja-5">Sekcja 5</a></li>
+    <li><a href="/admin">Logowanie</a></li>
+    <li><a href="/#description" data-id="description">Sekcja 1</a></li>
+    <li><a href="/#side-by-side-section">Sekcja 2</a></li>
+    <li><a href="/#my-form">Sekcja 3</a></li>
+    <li>Sekcja 4</li>
+  </ul>
+</div>
+
+<script>
+    function showHideMenu() {
+      let x = document.getElementById("mobile-menu");
+
+      if (x.style.display === "block") {
+        x.style.display = "none";
+        document.body.style.overflow = "auto";
+      } else {
+        x.style.display = "block";
+        document.body.style.overflow = "hidden";
+      }
+    }
+</script>
